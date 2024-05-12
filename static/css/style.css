@@ -1,0 +1,196 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-img {
+    height: 40vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #198754;
+}
+
+.vertical-box {
+    height: 40vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    font-size: 25px;
+}
+
+.about-us {
+    /*height: 60vh;*/
+    background: #ebeaee;
+}
+
+.title {
+    color: grey;
+    font-weight: bold;
+}
+
+.big-title {
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.about-img, .food {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.card {
+    background: #ebeaee;
+    border: none;
+}
+
+.category {
+    background: #f2f1ed;
+}
+
+.middle-text {
+    font-size: 50px;
+}
+
+.food-menu {
+    background: #f2f1ed;
+    min-height: 25vh;
+}
+
+.food-menu-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.food-menu-header {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.food-menu-text {
+    font-size: 15px;
+}
+
+.price {
+    font-size: 17px;
+    font-weight: bold;
+    color: #198754;
+}
+
+.testimonial {
+    background: #ebeaee;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+}
+
+.name {
+    font-size: 17px;
+}
+
+.rating {
+    font-size: 20px;
+    color: #FDCC0D;
+}
+
+.testimonial-text {
+    font-size: 17px;
+}
+
+.contact-us {
+    background: #ebeaee;
+    min-height: 50vh;
+}
+
+.contact {
+    background: ghostwhite;
+    min-height: 30vh;
+}
+
+.contact-img {
+    max-width: 90%;
+    height: auto;
+    object-fit: cover;
+}
+
+.btn {
+    width: 100px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.footer {
+    height: 10vh;
+    background: #3f3e3a;
+    color: white;
+}
+
+@media (max-width: 390px) {
+    .food, .about-img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .contact-img {
+        height: 300px;
+        width: 340px;
+    }
+
+    .contact {
+        height: 77vh;
+    }
+
+    .rights-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .food, .about-img {
+        height: 320px;
+        width: 320px;
+    }
+
+    .contact-img {
+        height: 300px;
+        width: 380px;
+    }
+
+    .rights-text {
+        font-size: 20px;
+    }
+}
